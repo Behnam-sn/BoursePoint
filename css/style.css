@@ -3,6 +3,11 @@
   src: url("Yekan.ttf");
 }
 
+@font-face {
+  font-family: Segoe UI;
+  src: url("Segoe-UI.ttf");
+}
+
 body {
   direction: rtl;
   text-align: right;
@@ -259,9 +264,12 @@ body {
   font-size: 13px;
 }
 
-#footer-contact-ex {}
+#footer-contact-ex {
+  font-size: 16px;
+}
 
 #copyright {
+  font-family: Segoe UI;
   font-size: 16px;
   margin: 40px 0;
 }
@@ -273,7 +281,7 @@ body {
 .grayscale {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  transition-duration: 1s;
+  transition-duration: 0.9s;
 }
 .grayscale:hover{
   -webkit-filter: grayscale(0%);
