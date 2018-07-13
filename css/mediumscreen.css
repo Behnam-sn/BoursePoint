@@ -2,6 +2,11 @@
   color: #f8f9fa;
 }
 
+.navlnk {
+  padding: 9px 0;
+}
+
+
 #bhr {
   text-align: center;
   font-size: 6vw;
