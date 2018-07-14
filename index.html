@@ -8,6 +8,7 @@
   <link rel="icon" href="img/icon.png" type="image/gif" sizes="16x16">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -112,16 +113,43 @@
 
   <div class="container-fluid text-center" id="art2">
     <div class="row">
-      <div class="col-lg-4"></div>
-      <div class="col-lg-4">
-        <div class="cont">
-          <img src="img/Group 281v.png" class="img-fluid" alt="">
-          <div class="centered text-white">مهمان بورس پوینت باشید</div>
-          <div class="bottom-right">با ما در دنیا بات</div>
+      <div class="col-lg-2"></div>
+      <div class="col-lg-6">
+        <div class="row" id="motion-1" data-aos="fade-right">
+          <div class="col-lg-8">
+            <img src="img/motion1.png" class="img-fluid" alt="">
+            <div class="centered text-white">مهمان بورس پوینت باشید</div>
+          </div>
+          <div class="col-lg-4 align-self-end" id="motion-ex" data-aos="fade-left">
+            <img src="img/motion2.png" class="img-fluid" alt="">
+            <div class="bottom-right">با ما در دنیا بات</div>
+          </div>
         </div>
       </div>
-      <div class="col-lg-2 align-self-end">
-        <img src="img/mrpoint2.png" alt="">
+      <div class="col-lg-2 align-self-end" id="motion-2">
+        <img src="img/mrpoint2.png" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <div class="col-lg-6" id="back-col">
+        <img src="img/back2.png" id="back1" alt="">
+      </div>
+      <div class="col-lg-6 text-center">
+        <h1 class="h1 red">برنده شو!</h1>
+        <p class="h4" style="margin: 40px 0;">در بورس پوینت با کاربر های دیگه مسابقه بده و برنده شو
+          <br> هر روز با مسابقه جدید و سوالات جدید</p>
+        <div class="row">
+          <div class="col-lg-5"></div>
+          <div class="col-lg-2">
+            <a href="#" class="btn shadow" id="check-btn">یه سری بزن!</a>
+          </div>
+          <div class="col-lg-5">
+            <img src="img/mrpoint3.png" class="img-fluid" alt="">
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -297,7 +325,10 @@
 
   <script src="js/navbar.js"></script>
   <script src="js\slideshow.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
   <script>
+    AOS.init();
     var x = screen.width;
     if (x > 450) {
       w3.addClass('.nore', 'col-2');

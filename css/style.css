@@ -105,6 +105,14 @@ body {
     margin: 140px 0;
 }
 
+#motion-1 {
+    direction: ltr;
+}
+
+#motion-ex {
+    right: 11vw;
+}
+
 .cont {
     position: relative;
     text-align: center;
@@ -114,14 +122,12 @@ body {
 .centered {
     position: absolute;
     top: 70%;
-    left: 45%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .bottom-right {
-    position: absolute;
-    bottom: 1%;
-    right: 7%;
+    text-align: center;
 }
 
 #back-col {
