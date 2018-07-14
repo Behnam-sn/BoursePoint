@@ -36,11 +36,22 @@ body {
 #join-btn {
   color: #005C75;
   background-color: #ffffff;
-  width: 120px;
+  border: none;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
   border-radius: 25px;
   font-size: 19px;
   margin-right: 80px;
-  transition-duration: 0.5s;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+#join-btn:hover {
+  color: #ffffff;
+  background-color: #005C75;
+  padding: 13px 45px;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
 
 .naval {
