@@ -19,7 +19,7 @@
 
 <body>
   <div class="container-fluid" id="head-back">
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark" id="nav">
       <div class="navbar-brand">
         <div class="d-flex">
           <div class="p-2" style="margin-top: 11px;">
@@ -31,7 +31,7 @@
           </div>
         </div>
       </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" onclick="navclick()">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -49,8 +49,8 @@
     <div class="container-fluid" id="nav-down">
       <div class="row" style="direction:ltr;">
         <div class="col-lg-1"></div>
-        <div class="col-lg" id="bhr">
-          <p class="text-light">نبض بازار در دستان شما</p>
+        <div class="col-lg bhr-ex-wh" id="bhr">
+          <p>نبض بازار در دستان شما</p>
         </div>
         <div class="col-lg" id="sjl">
           <p class="red">!سبد سهام رو پایش کن</p>
@@ -292,6 +292,7 @@
     </footer>
   </div>
 
+  <script src="js/navbar.js"></script>
   <script src="js\slideshow.js"></script>
   <script>
     var x = screen.width;

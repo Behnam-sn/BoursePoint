@@ -306,3 +306,16 @@ body {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
+
+.nav-small-back{
+  background-color: #00C0C9;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+.bhr-ex-bl{
+  color: #000000;
+}
+
+.bhr-ex-wh{
+  color: #ffffff;
+}
