@@ -7,6 +7,7 @@
 }
 
 #bhr {
+  color: #f8f9fa;
   text-align: center;
   font-size: 6vw;
   margin-top: 7vw;
@@ -61,7 +62,7 @@
 }
 
 .footer-contact {
-  font-size: 5px;
+  font-size: 8px;
 }
 
 #footer-contact-2 {
