@@ -45,12 +45,12 @@ body {
   margin-right: 80px;
   cursor: pointer;
   transition: transform 1s;
+  transition-duration: 1s;
 }
 
 #join-btn:hover {
-  color: #ffffff;
-  background-color: #005C75;
-  /* padding: 13px 45px; */
+  /* color: #ffffff;
+  background-color: #005C75; */
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
   -ms-transform: scale(1.1);
   -webkit-transform: scale(1.1);
@@ -115,13 +115,16 @@ body {
   position: absolute;
   top: 70%;
   left: 45%;
+  /* left: 50%; */
   transform: translate(-50%, -50%);
 }
 
 .bottom-right {
   position: absolute;
   bottom: 1%;
-  right: 7%;
+  /* bottom: 1%; */
+  right: 10%;
+  /* right: 30%; */
 }
 
 #back-col {

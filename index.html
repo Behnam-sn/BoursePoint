@@ -8,6 +8,7 @@
   <link rel="icon" href="img/icon.png" type="image/gif" sizes="16x16">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -107,6 +108,24 @@
         <img src="img/mrpoint2.png" alt="">
       </div>
     </div>
+    <!-- <div class="row">
+      <div class="col-lg-2"></div>
+      <div class="col-lg-2 align-self-end" data-aos="fade-left">
+        <div class="cont">
+          <img src="img/motion2.png" class="img-fluid" alt="">
+          <div class="bottom-right">با ما در دنیا بات</div>
+        </div>
+      </div>
+      <div class="col-lg-4" data-aos="fade-right">
+        <div class="cont">
+          <img src="img/motion1.png" class="img-fluid" alt="">
+          <div class="centered text-white">مهمان بورس پوینت باشید</div>
+        </div>
+      </div>
+      <div class="col-lg-2 align-self-end">
+        <img src="img/mrpoint2.png" alt="">
+      </div>
+    </div> -->
   </div>
 
   <div class="container-fluid">
@@ -294,7 +313,10 @@
 
   <script src="js/navbar.js"></script>
   <script src="js\slideshow.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
   <script>
+  AOS.init();
     var x = screen.width;
     if (x > 450) {
       w3.addClass('.nore', 'col-2');
