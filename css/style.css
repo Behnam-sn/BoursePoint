@@ -316,6 +316,7 @@ body {
 .nav-small-back {
     background-color: #00C0C9;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    border-radius: 6px;
 }
 
 .bhr-ex-bl {
