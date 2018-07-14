@@ -44,14 +44,17 @@ body {
   font-size: 19px;
   margin-right: 80px;
   cursor: pointer;
-  transition-duration: 1s;
+  transition: transform 1s;
 }
 
 #join-btn:hover {
   color: #ffffff;
   background-color: #005C75;
-  padding: 13px 45px;
+  /* padding: 13px 45px; */
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .naval {
@@ -292,10 +295,14 @@ body {
 .grayscale {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  transition-duration: 0.9s;
+  transition: transform 1s;
+  transition-duration: 0.7s;
 }
 
 .grayscale:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
