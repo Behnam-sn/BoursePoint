@@ -33,6 +33,15 @@ body {
     font-size: 18px;
 }
 
+.nav-brand {
+    cursor: pointer;
+}
+
+.nav-brand:hover {
+    text-decoration: none;
+    color: #343a40;
+}
+
 #join-btn {
     color: #005C75;
     background-color: #ffffff;
