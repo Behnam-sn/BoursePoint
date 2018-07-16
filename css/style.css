@@ -216,6 +216,11 @@ a,
     font-size: 15px;
 }
 
+#news-left {
+    max-width: 47vw;
+    max-height: 354px;
+}
+
 .news-col {
     margin-bottom: 2vw;
 }
@@ -335,7 +340,7 @@ a,
     color: #ffffff;
 }
 
-#win-parag{
+#win-parag {
     margin: 40px 0;
     font-size: 24px;
 }

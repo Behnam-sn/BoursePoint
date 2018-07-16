@@ -32,7 +32,12 @@
   width: 104%;
 }
 
-#mcn {
+#news-right {
+  margin-bottom: 30px;
+}
+
+#news-left {
+  max-width: 100%;
   margin: 0 30px;
 }
 
@@ -75,4 +80,21 @@
 
 #motion-ex {
   right: 0;
+}
+
+.nav-small-back {
+  background-color: #00C0C9;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  border-radius: 6px;
+  transition-duration: .5s;
+}
+
+.bhr-ex-bl {
+  color: #000000;
+  transition-duration: .5s;
+}
+
+.bhr-ex-wh {
+  color: #ffffff;
+  transition-duration: .5s;
 }

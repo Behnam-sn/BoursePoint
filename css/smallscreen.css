@@ -38,6 +38,14 @@
   font-size: 8px;
 }
 
+#news-right {
+  margin-bottom: 60px;
+}
+
+#news-left {
+  max-width: 100%;
+}
+
 .news-col {
   text-align: center !important;
 }
