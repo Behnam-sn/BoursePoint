@@ -15,6 +15,7 @@ body {
     background-repeat: repeat;
     font-family: B yekan;
     overflow-x: hidden;
+    font-weight: bold;
 }
 
 .h1,
@@ -22,9 +23,7 @@ body {
 .h3,
 .h4,
 .h5,
-.h6,
-.contact,
-#sjl {
+.h6 {
     font-weight: bold;
 }
 
@@ -218,7 +217,6 @@ a,
 
 #news-left {
     max-width: 47vw;
-    max-height: 354px;
 }
 
 .news-col {
@@ -307,6 +305,7 @@ a,
     font-family: Segoe UI;
     font-size: 16px;
     margin: 40px 0;
+    font-weight: normal;
 }
 
 #copyright span {
