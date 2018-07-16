@@ -17,6 +17,16 @@ body {
     overflow-x: hidden;
 }
 
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+#sjl {
+    font-weight: bold;
+}
+
 .red {
     color: #720000;
 }
@@ -97,7 +107,7 @@ body {
 }
 
 #sjl {
-    font-size: 48px;
+    font-size: 45px;
     margin-right: 2vw;
 }
 
@@ -213,8 +223,8 @@ body {
 }
 
 .news-title {
-    font-size: 20px;
-    font-weight: bold;
+    /* font-size: 20px; */
+    /* font-weight: bold; */
 }
 
 .news-detail {
