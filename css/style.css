@@ -28,6 +28,12 @@ body {
     font-weight: bold;
 }
 
+a,
+.w3-badge,
+#join-btn {
+    cursor: pointer;
+}
+
 .red {
     color: #720000;
 }
@@ -45,10 +51,6 @@ body {
     font-size: 18px;
 }
 
-.nav-brand {
-    cursor: pointer;
-}
-
 .nav-brand:hover {
     text-decoration: none;
     color: #343a40;
@@ -64,7 +66,6 @@ body {
     border-radius: 25px;
     font-size: 19px;
     margin-right: 80px;
-    cursor: pointer;
     transition: all 0.7s;
 }
 
@@ -171,10 +172,6 @@ body {
 
 .mySlides {
     display: none;
-}
-
-.w3-badge {
-    cursor: pointer;
 }
 
 .w3-badge {
