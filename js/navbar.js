@@ -1,15 +1,15 @@
-t = 1;
+t = true;
 
 function navclick() {
-  if (t == 1) {
+  if (t == true) {
     w3.addClass('#nav', 'nav-small-back');
     w3.removeClass('#bhr', 'bhr-ex-wh');
     w3.addClass('#bhr', 'bhr-ex-bl');
-    t = 0;
+    t = false;
   } else {
     w3.removeClass('#nav', 'nav-small-back');
     w3.removeClass('#bhr', 'bhr-ex-bl');
     w3.addClass('#bhr', 'bhr-ex-wh');
-    t = 1;
+    t = true;
   }
 }

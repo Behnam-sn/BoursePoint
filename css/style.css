@@ -330,12 +330,15 @@ body {
     background-color: #00C0C9;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
     border-radius: 6px;
+    transition-duration: .5s;
 }
 
 .bhr-ex-bl {
     color: #000000;
+    transition-duration: .5s;
 }
 
 .bhr-ex-wh {
+    transition-duration: .5s;
     color: #ffffff;
 }
