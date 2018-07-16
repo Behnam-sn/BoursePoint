@@ -220,11 +220,6 @@ a,
     margin-bottom: 2vw;
 }
 
-.news-title {
-    /* font-size: 20px; */
-    /* font-weight: bold; */
-}
-
 .news-detail {
     font-size: 13px;
     padding-left: 0;
@@ -338,4 +333,9 @@ a,
 
 .bhr-ex-wh {
     color: #ffffff;
+}
+
+#win-parag{
+    margin: 40px 0;
+    font-size: 24px;
 }
