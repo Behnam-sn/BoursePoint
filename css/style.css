@@ -96,7 +96,7 @@ a,
 
 .navlnk {
     display: block;
-    padding: 0 9px;
+    padding: 0 .5em;
     color: #f2f2f2;
     transition-duration: 0.2s;
 }
@@ -137,9 +137,9 @@ a,
 
 #bhr {
     text-align: left;
-    font-size: 35px;
-    margin-top: 6vw;
-    margin-left: 8vw;
+    font-size: 230%;
+    margin-top: 2.5em;
+    margin-left: 3.3em;
 }
 
 #sjl {
