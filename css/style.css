@@ -23,8 +23,15 @@ body {
 .h3,
 .h4,
 .h5,
-.h6 {
+.h6,
+#join-btn,
+#check-btn {
     font-weight: bold;
+}
+
+#nav,
+#win-parag {
+    font-weight: normal;
 }
 
 a,
@@ -182,11 +189,13 @@ a,
     right: 11vw;
 }
 
-/* #motion-ex:hover {
-    animation-name: bot;
-    animation-duration: 1.5s;
+#motion-ex:hover {
+    /* animation-name: bot;
+    animation-duration: 1.5s; */
+    /* opacity: 1.5; */
 }
 
+/*
 @keyframes bot {
     0% {
         right: 0;
@@ -299,9 +308,16 @@ a,
     margin-bottom: 2vw;
 }
 
+.news-title{
+    font-size: 1.8vw;
+}
+
 .news-detail {
-    font-size: 13px;
+    /* font-size: 13px; */
+    font-size: .8vw;
     padding-left: 0;
+    text-align: justify;
+    
 }
 
 #gry {
@@ -438,4 +454,9 @@ a,
 
 .contact-col-min {
     min-width: 248px;
+}
+
+.sob{
+    width: 8vw;
+    height: auto;
 }
