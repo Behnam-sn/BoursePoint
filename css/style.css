@@ -331,6 +331,16 @@ a,
     transform: scale(1.2);
 }
 
+.whitescale{
+    transition: all 0.7s;
+}
+.whitescale:hover{
+    opacity: 0.5;
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
 .bhr-ex-bl {
     color: #ffffff;
 }
