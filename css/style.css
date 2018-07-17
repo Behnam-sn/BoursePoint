@@ -147,11 +147,10 @@ a,
 
 #sjl {
     font-size: 45px;
-    /* margin-right: 2vw; */
+    margin-right: 2vw;
 }
 
 #list {
-    /* max-width: 600px; */
     line-height: 40px;
     font-size: 16px;
     direction: rtl;
