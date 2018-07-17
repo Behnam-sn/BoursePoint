@@ -331,10 +331,11 @@ a,
     transform: scale(1.2);
 }
 
-.whitescale{
+.whitescale {
     transition: all 0.7s;
 }
-.whitescale:hover{
+
+.whitescale:hover {
     opacity: 0.5;
     -ms-transform: scale(1.2);
     -webkit-transform: scale(1.2);
@@ -352,4 +353,8 @@ a,
 #win-parag {
     margin: 40px 0;
     font-size: 24px;
+}
+
+#todey-analysis {
+    margin: 4vw 11vw 0 9vw;
 }
