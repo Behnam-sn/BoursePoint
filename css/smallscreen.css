@@ -19,11 +19,12 @@
 
 #sjl {
   font-size: 9vw;
-  margin-top: 160px;
+  margin-top: 4.5em;
 }
 
 #list {
   text-align: justify;
+  margin-right: -1.5em;
 }
 
 .contact {
@@ -47,11 +48,7 @@
   margin-bottom: 60px;
 }
 
-#news-left {
-  max-width: 100%;
-}
-
-.news-col {
+.news-left {
   text-align: center !important;
 }
 
