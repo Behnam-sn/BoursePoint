@@ -432,3 +432,27 @@ a,
 .contact-col-min {
     min-width: 248px;
 }
+
+#mrpoint-1 {
+    width: 139px;
+}
+
+#mrpoint-2 {
+    width: 159px;
+}
+
+#mrpoint-3 {
+    width: 199px;
+}
+
+#mrpoint-4 {
+    width: 367px;
+}
+
+#icon {
+    width: 60px;
+}
+
+.contact--image {
+    width: 31px;
+}
