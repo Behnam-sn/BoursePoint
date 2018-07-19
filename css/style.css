@@ -222,12 +222,18 @@ a,
 
 #sideshowbob {
     width: 630px;
-    height: auto;
+    height: 340px;
     max-width: 100%;
 }
 
 .mySlides {
     display: none;
+    height: 340px;
+}
+
+.img-height {
+    width: 100%;
+    height: 340px;
 }
 
 .w3-badge {
@@ -278,16 +284,16 @@ a,
 }
 
 .news-col {
-    margin-bottom: 2vw;
+    margin-bottom: 30px;
 }
 
 .news-title {
-    font-size: 1.3vw;
+    font-size: 20px;
 }
 
 .news-detail {
-    /* font-size: 13px; */
-    font-size: .8vw;
+    font-size: 12px;
+    /* font-size: 1vw; */
     padding-left: 0;
     text-align: justify;
 }
@@ -455,4 +461,13 @@ a,
 
 .contact--image {
     width: 31px;
+}
+
+@media screen and (min-width: 990px) and (max-width: 1160px) {
+    .news-detail {
+        font-size: 10px;
+    }
+    .news-col {
+        margin-bottom: 35px;
+    }
 }
