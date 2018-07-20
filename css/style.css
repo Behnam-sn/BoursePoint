@@ -462,6 +462,9 @@ a,
 .contact--image {
     width: 31px;
 }
+.rotate{
+    transition: all 1s;
+}
 .rotate:hover{
     -moz-transform: rotate(360deg);
     -o-transform: rotate(360deg);
