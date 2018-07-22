@@ -480,6 +480,14 @@ a,
     transform: rotate(360deg);
 }
 
+.contact-footer-image {
+    width: 25px;
+}
+
+#main-footer-image {
+    width: 37px;
+}
+
 @media screen and (min-width: 990px) and (max-width: 1160px) {
     .news-detail {
         font-size: 10px;
