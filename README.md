@@ -1,6 +1,8 @@
 # BoursePoint
 date: 1397/4/9 or 2018/6/31
-environment: html, css, bootstarp4, w3.css, w3.js, aos
-editor: atom, vscode
+
+Environment: HTML, CSS, JavaScript, Bootstrap, w3.css, w3.js, aos
+
+Editor: Atom, vscode
 
 worst project I ever done and unfortunately I can't make it better
