@@ -58,6 +58,7 @@ a,
   font-size: 18px;
 }
 
+.nav-brand,
 .nav-brand:hover {
   text-decoration: none;
   color: #343a40;
