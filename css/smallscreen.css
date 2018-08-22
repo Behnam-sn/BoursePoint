@@ -1,4 +1,6 @@
-#title {
+#title,
+.nav-brand,
+.nav-brand:hover {
   color: #f8f9fa;
 }
 
@@ -112,20 +114,20 @@
 }
 
 .nav-small-back {
-  background-color: #00C0C9;
+  background-color: #00c0c9;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
   border-radius: 6px;
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 
 .bhr-ex-bl {
   color: #000000;
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 
 .bhr-ex-wh {
   color: #ffffff;
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 
 #todey-analysis {
@@ -140,6 +142,6 @@
   height: auto;
 }
 
-.img-height{
+.img-height {
   height: auto;
 }
